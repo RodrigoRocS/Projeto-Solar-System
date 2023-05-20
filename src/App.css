@@ -6,20 +6,31 @@ body {
   background-image: url('./images/background.png');
   color: white;
   font-family: Epilogue;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header {
   display: flex;
   justify-content: center;
   align-content: center;
-  padding: 70px;
-  font-size: 20px;
+  padding: 1vw;
+  font-size: 3vw;
+}
+
+header img {
+  width: 35vw;
 }
 
 .solar-system {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 5vw;
+}
+
+.solar-system h2 {
+  font-size: 5vw;
 }
 
 .planets {
@@ -29,13 +40,20 @@ header {
 }
 
 .planets img {
-  width: 200px;
+  width: 12vw;
+  transition: transform 0.3s ease;
+}
+
+.planets img:hover {
+  transform: scale(1.35);
 }
 
 .planet-card {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1vw;
+  font-size: 1.2vw;
 }
 
 .missions-box {
@@ -43,22 +61,29 @@ header {
   flex-direction: column;
   align-items: center;
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.9);
-  border-radius: 30px;
+  border-radius: 5vw;
   background-color: rgba(255, 255, 255, 0.1);
+  width: 70vw;
+  padding-bottom: 5vw;
+  padding-top: 5vw;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 10vw;
 }
 
 .missions-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 2vw;
   justify-content: space-evenly;
+  padding: 2vw 1vw;
 }
 
 .mission-card {
-  border: 0.5px solid white;
+  border: 0.1vw solid white;
   border-radius: 17px;
   background-color: rgba(24, 26, 37, 0.5);
-  width: 45%;
+  width: 22.5vw;
   display: flex;
   flex-direction: column;
 }
@@ -69,20 +94,19 @@ header {
 }
 
 .mission-data {
-  border: 0.1px solid white;
-  border-bottom-right-radius: 17px;
-  border-bottom-left-radius: 17px;
+  border-top: 0.1vw solid white; 
   display: flex;
   justify-content: space-evenly;
+  padding: 2vw;
 }
 .mission-data-item {
   display: flex;
   align-items: center;
-  margin-right: 10px;
+  margin-right: 1vw;
 }
 
 .mission-data-item img {
-  width: 16px;
-  height: 16px;
-  margin-right: 5px;
+  width: 1.6vw;
+  height: 1.6vw;
+  margin-right: 0.5vw;
 }
