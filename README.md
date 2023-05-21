@@ -1,4 +1,5 @@
-Projeto Solar System
+Projeto Solar System:
+
 Este projeto consiste em uma aplicação desenvolvida utilizando React, onde é apresentada uma página que lista todos os planetas do Sistema Solar, bem como algumas das missões espaciais mais conhecidas.
 
 Objetivo
