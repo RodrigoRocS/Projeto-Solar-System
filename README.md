@@ -19,3 +19,5 @@ O diretório components contém os componentes React utilizados na aplicação, 
 O diretório data contém os dados sobre os planetas e as missões espaciais, armazenados em arquivos JSON.
 
 Projeto realizado durante o periodo de curso da Trybe.
+
+https://rodrigorocs.github.io/Projeto-Solar-System/
